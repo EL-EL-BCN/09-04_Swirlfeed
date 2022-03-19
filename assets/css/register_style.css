@@ -1,0 +1,104 @@
+@font-face {
+	font-family: 'Bellota-LightItalic.otf';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face {
+	font-family: 'Bellota-BoldItalic.otf';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+html, body {
+	height: 100%
+	min-height: 100%;
+}
+	
+form {
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font-family: 'Bellota-BoldItalic.otf', Sans-serif;
+	text-decoration: none;
+	color: #0d0208;
+}
+
+.wrapper {
+	background-image: url("../images/backgrounds/matrix_code_background.jpg");
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	min-width: 95px;
+}
+
+.login_header {
+	font-family: 'Bellota-BoldItalic.otf', Sans-serif;
+	width: 100%;
+	text-align: center;
+	margin-top: -20px;
+	height: 80px;
+	font-weight: 900;
+	background-color: #0d0208;
+	color: #003b00;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.login_header h1 {
+	font-family: 'Bellota-BoldItalic.otf', Sans-serif;
+	text-shadow: #003b00 0.5px 0.5px 0px;
+	font-size: 250%
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: #008f11;
+}
+
+.login_box {
+	font-family: 'Bellota-LightItalic.otf', Sans-serif;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 10%;
+	width: 25%;
+	background-color: #ffffff;
+	border: 1px solid #ededed;
+	border-radius: 7px;
+	padding: 5px;
+	opacity:0.98;
+}
+
+.login_box form {
+	margin-top: 15px;
+}
+
+input[type="submit"] {
+	font-family: 'Bellota-BoldItalic.otf', Sans-serif;
+	font-size: 100%;
+	background-color: #008f11
+	border: 1px solid #008f11;
+	border-radius: 3px;
+	margin: 5px 0 5px;
+	padding: 5px 10px 5px 10px;
+	color: #0d0208;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	border: 1px solid #008f11;
+	margin-top: 5px;
+	width: 70%;
+	height: 35px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+	border-color: black;
+}
+
+#second {
+	display: none;
+}
